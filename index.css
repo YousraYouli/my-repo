@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(195, 233, 246);
+}
+/* selectors */
+* {
+  text-align: center;
+  color: blue;
+}
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+/* text-decoration-line (required)
+text-decoration-color (optional)
+text-decoration-style (optional)
+text-decoration-thickness (optional) */
+body {
+  background-image: url("paper.gif");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-attachment: fixed;     /*scroll*/
+}
+h1 {
+  color: #f88b0fe6;
+  text-align: center;
+  font-family:"consolas" ,sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#first{
+    color:rgb(88, 50, 0);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: red dotted underline;
+}
+.para{
+    color:tomato;
+    font-family:Verdana, Tahoma,"fantasy", "BBH Sans Bartle";
+    font-weight:bold;
+    font-style:normal;
+}
+/* links */
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.navbar ul {
+  display: flex; 
+  flex-direction: column; /*row*/
+  list-style: none; 
+  gap: 20px; 
+  padding: 0;
+  margin: 0;
+  background-color: rgb(197, 225, 225);
+  color:blueviolet
+}
+
+.navbar ul li {
+  margin-bottom: 10px;
+}
+
+/* css flexbox / grid */
+
+/* css template */
