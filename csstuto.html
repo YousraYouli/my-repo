@@ -1,6 +1,66 @@
 <!DOCTYPE html>
 <head>
          <title>CssTutorial</title>
+  <style>
+    .description{
+     background-color: cadetblue;
+     color: blue;
+     font-size: larger;
+    }
+    .description p , h1{
+     background-color: cadetblue;
+     color: blue;
+     font-size: larger;
+    }
+    .description2{
+     background-color: rgb(219, 64, 209);
+     color: rgb(101, 208, 58);
+     font-size: larger;
+    }
+    .description2 p , h1{
+     background-color: rgb(160, 95, 143);
+     color: rgb(116, 218, 78);
+     font-size: larger;
+    }
+    p{
+      color: brown;
+      background-color: aquamarine;
+    }
+    .para{
+      font-weight: bold;
+      color: tomato;
+    }
+    #t{
+      background-color: blue;
+    }
+    nav{
+      background-color: black;
+      color: beige;
+      position: static; /*fixed*/
+    }
+    nav ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    gap:15px; 
+    }
+    nav a:hover {
+      color: aqua;
+    }
+    .container{   
+background-color: blueviolet;
+ width: 600px;
+ height: 200px; 
+ padding: 20px;
+  margin: 20px;
+display:flex;
+flex-direction: row;
+gap:300px;
+justify-content: center;
+}
+
+  </style>
+ 
          <!-- <link rel="stylesheet" href="index.css">
     <style>
 body{
@@ -35,27 +95,80 @@ h1{
     2. Internal
     3. External
     -->
-    <h1>hello world</h1>
+    
+    <nav>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#first">about</a></li>
+        <li><a href="#second">gallerie</a></li>
+        <li><a href="index.html">contact</a>></li>
+      </ul>
+    </nav>
+
+<p id="second">this is my galleria</p>
+<div class="container" >
+<div class="description">
+  <h1>division</h1>
+  <p>hello</p>
+  <button>click</button>
+</div>
+<div class="description2">
+  <h1>division</h1>
+  <p>hello</p>
+  <button>click</button>
+</div>
+
+</div>
+<div class="description3">
+  <h1>division</h1>
+  <p>hello</p>
+  <button>click</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    <h1 class="para">hello world</h1>
     <p>this is yousra</p>
-    <p>i love computer science</p>
-    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
-    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p id="t">i love computer science</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
     <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
     <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
 
 
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+
+
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p id="#first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate assumenda similique nihil, porro officia facere atque consequuntur aspernatur. Possimus veritatis ducimus a nemo id beatae odit mollitia consequatur. Eos!</p> -->
+
+<a href="#t">click </a>
     <nav class="navbar">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
+ 
 
-
-
+<h2 id="home">this is a home</h2>
 
 </body>
 </html>
